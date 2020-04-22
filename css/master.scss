@@ -1,0 +1,56 @@
+$cover-color:aqua;
+$desc-color:orange;
+$review-color:magenta;
+
+h2 {
+  color:green;
+}
+
+table{
+
+}
+
+#cover {
+  color: $cover-color;
+
+}
+
+#description{
+  color:$desc-color;
+
+}
+
+#review{
+  color:$review-color;
+
+}
+.cover {
+
+}
+
+.description{
+
+}
+
+.review{
+
+}
+
+ion-icon {
+  color:yellow;
+}
+
+.mobile-only{
+  display: None;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile */
+  .pc-only {
+    display:None;
+  }
+
+  .mobile-only{
+    display: Display;
+  }
+}

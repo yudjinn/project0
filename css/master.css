@@ -1,37 +1,27 @@
 h2 {
-  color:green;
-}
-
-table{
-
-}
+  color: green; }
 
 #cover {
-  color: aqua;
+  color: aqua; }
 
-}
+#description {
+  color: orange; }
 
-#description{
-  color:orange;
-
-}
-
-#review{
-  color:magenta;
-
-}
-.cover {
-
-}
-
-.description{
-
-}
-
-.review{
-
-}
+#review {
+  color: magenta; }
 
 ion-icon {
-  color:yellow;
-}
+  color: yellow; }
+
+.mobile-only {
+  display: None; }
+
+@media only screen and (max-width: 600px) {
+  /* For mobile */
+  .pc-only {
+    display: None; }
+
+  .mobile-only {
+    display: Display; } }
+
+/*# sourceMappingURL=master.css.map */
