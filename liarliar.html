@@ -2,10 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Liar Liar</title>
+    <link rel="stylesheet" href="/css/master.css">
+    <title>Fight Club</title>
   </head>
   <body>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Liar Liar</li>
+        </ol>
+    </nav>
     <div class="col-12">
       <h1>Table of Contents</h1>
       <ul>
@@ -14,27 +22,32 @@
         <li> <a href="#review">Review</a> </li>
       </ul>
     </div>
-    <div class="cover col-12">
-      <h2 id="cover" class="col-12">Cover</h2>
-      <img src="https://resizing.flixster.com/ggNtAvHEv4oFiZ0m5EoD_zwzHj4=/206x305/v1.bTsxMTE3MTk0ODtqOzE4NDg5OzEyMDA7ODAwOzEyMDA" >
-    </div>
-
-    <div class="description col-12">
-      <h2 id="description" class="col-12">Description</h2>
-    </div>
-
-    <div class="review col-12">
-      <h2 id="review" class="col-6">Review</h2>
-      <div class="col-12">
-        <table>
-          <td><ion-icon name="star"></ion-icon></td>
-          <td><ion-icon name="star"></ion-icon></td>
-          <td><ion-icon name="star"></ion-icon></td>
-          <td><ion-icon name="star"></ion-icon></td>
-          <td><ion-icon name="star-half"></ion-icon></td>
-        </table>
+    <div class="row-md  ">
+      <div class="cover col-2">
+        <h2 id="cover" class="col-5">Cover</h2>
+        <img src="https://resizing.flixster.com/ggNtAvHEv4oFiZ0m5EoD_zwzHj4=/206x305/v1.bTsxMTE3MTk0ODtqOzE4NDg5OzEyMDA7ODAwOzEyMDA" >
       </div>
+      <div class="col-7">
+        <div class="description">
+          <h2 id="description">Description</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
 
+        <div class="review">
+          <h2 id="review">Review</h2>
+          <div>
+            <table>
+              <td><ion-icon name="star"></ion-icon></td>
+              <td><ion-icon name="star"></ion-icon></td>
+              <td><ion-icon name="star"></ion-icon></td>
+              <td><ion-icon name="star"></ion-icon></td>
+              <td><ion-icon name="star-half"></ion-icon></td>
+            </table>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+
+      </div>
     </div>
 
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
